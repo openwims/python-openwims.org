@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .DS_Store
 
 # Python binary and C extensions
@@ -17,11 +18,47 @@
 _notes
 
 # Packages
+=======
+*.py[cod]
+
+# C extensions
+*.so
+
+# Packages
+*.egg
+>>>>>>> f37d796a6e435ada033cf9f90f62f722f58ecca5
 *.egg-info
 dist
 build
 eggs
+<<<<<<< HEAD
 .installed.cfg
 tmp
 
 .idea
+=======
+parts
+bin
+var
+sdist
+develop-eggs
+.installed.cfg
+lib
+lib64
+
+# Installer logs
+pip-log.txt
+
+# Unit test / coverage reports
+.coverage
+.tox
+nosetests.xml
+
+# Translations
+*.mo
+
+# Mr Developer
+.mr.developer.cfg
+.project
+.pydevproject
+>>>>>>> f37d796a6e435ada033cf9f90f62f722f58ecca5
